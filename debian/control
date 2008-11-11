@@ -1,0 +1,13 @@
+Source: cern-krb5-config
+Section: admin
+Priority: extra
+Maintainer: KELEMEN Peter <Peter.Kelemen@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.3
+
+Package: cern-krb5-config
+Architecture: all
+Pre-Depends: krb5-config
+Enhances: krb5-config
+Description: CERN-specific Kerberos V configuration
+ Kerberos V configuration ready to be used at CERN.

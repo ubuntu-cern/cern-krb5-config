@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#DEBHELPER#
+
+if [ -h /etc/krb5.conf ]; then
+	rm /etc/krb5.conf
+fi
+dpkg-divert --package cern-krb5-config --remove /etc/krb5.conf
+
+# End of file.

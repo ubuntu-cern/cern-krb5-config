@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#DEBHELPER#
+
+dpkg-divert --package cern-krb5-config --rename --divert /etc/krb5.conf.orig /etc/krb5.conf
+ln -s /etc/cern-krb5.conf /etc/krb5.conf
+
+# End of file.
