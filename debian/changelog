@@ -1,3 +1,9 @@
+cern-krb5-config (2) hardy intrepid jaunty; urgency=low
+
+  * Updated for jaunty.
+
+ -- KELEMEN Peter <Peter.Kelemen@gmail.com>  Fri, 15 May 2009 23:16:00 +0200
+
 cern-krb5-config (1) hardy intrepid; urgency=low
 
   * Initial release.
