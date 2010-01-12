@@ -1,3 +1,9 @@
+cern-krb5-config (3) hardy karmic; urgency=low
+
+  * Updated for karmic.
+
+ -- Frohner Ákos <akos@frohner.hu>  Tue, 12 Jan 2010 14:08:39 +0100
+
 cern-krb5-config (2) hardy intrepid jaunty; urgency=low
 
   * Updated for jaunty.
